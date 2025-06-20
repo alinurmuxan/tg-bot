@@ -513,4 +513,4 @@ def show_helperlist(msg):
         
         # Запуск
 print("✅ Бот запущен!")
-bot.infinity_polling()
+bot.polling(none_stop=True)
